@@ -24,7 +24,7 @@ playPause.addEventListener('click', () => {
     playInterval = setInterval(() => {
       slider.value = (+slider.value + 1) % totalSlices;
       viewer.src = images[+slider.value].src;
-    }, 10); // speed: 10 ms per frame
+    }, 20); // speed: 20 ms per frame
   } else {
     playing = false;
     playPause.textContent = '▶️ Play';
