@@ -1,6 +1,6 @@
 const slider = document.getElementById('zSlider');
 const viewer = document.getElementById('viewer');
-const totalSlices = 600;
+const totalSlices = 1000;
 
 const images = [];
 for (let i = 0; i < totalSlices; i++) {
