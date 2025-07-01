@@ -1,11 +1,11 @@
 const slider = document.getElementById('zSlider');
 const viewer = document.getElementById('viewer');
-const totalSlices = 50;
+const totalSlices = 600;
 
 const images = [];
 for (let i = 0; i < totalSlices; i++) {
   const img = new Image();
-  img.src = `frames/frame_${String(i).padStart(3, '0')}.jpg`;
+  img.src = `frames/frame${String(i).padStart(4, '0')}.jpg`;
   images.push(img);
 }
 
